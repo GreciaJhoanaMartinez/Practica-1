@@ -1,28 +1,173 @@
-/head>
-<body>
-    <h1> Mi primer pagina </h1>
-    <h2> Mi primer pagina </h2>
-    <h3> Mi primer pagina </h3>
-    <h4> Mi primer pagina </h4>
-    <h5> Mi primer pagina </h5>
-    <h6> Mi primer pagina </h6> <!-- Este es un comentario -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-    <p> Este es un parrafo</p>
-    <form action=""> <!-- Este es un formulario-->
-            <input type="text" placeholder="Nombre"><br><br>
-            <input type="email"><br><br>
-            <input type="password"><br><br>
-        <form> <!-- Este es un formulario-->
-            <label for="name">Nombre</label>
-            <input type="text" id="name" name="fname" placeholder="Nombre"><br><br>
-            <label>Apellido</label>
-            <input type="text" id="lastname" name="lastname" placeholder="Apellido"><br><br>
-            <label>Edad</label>
-            <input type="number" id="age" name="age" placeholder="Edad" min="18" max="35"><br><br>
-            <label>Email</label>
-            <input type="email" id="email" name="email" placeholder="Correo"><br><br>
-            <label>Contraseña</label>
-            <input type="password" id="password" name="password" placeholder="Contraseña"><br><br>
-            <button type="submit">Enviar</button>
+<body>
+    <section class="fixed-header">
+    <header class="header">
+        <!--logo con link a la pagina principal-->
+        <a>
+            <img/>
+            <img src="img/Therion4.png" alt="" height="40px" width="40px">
+            </a>
+         <!--Menú de navegación-->
+         <nav class="navbar">
+            <ul>
+                <li> Platform</li>
+                <li> Pricing</li>
+                <li> Resources</li>
+                <li> About</li>
+                <li> Hola</li>
+            </ul>
+         </nav>
+         <!--Contenedor de acciones de usuario-->
+         <div class="actions">
+            <a>Sign In</a>
+            <button>Start Free trial</button>
+         </div>   
+    </header>
+</section>
+<h1> Mi primer pagina </h1>
+<h2> Mi primer pagina </h2>
+<h3> Mi primer pagina </h3>
+<h4> Mi primer pagina </h4>
+<h5> Mi primer pagina </h5>
+<h6> Mi primer pagina </h6> <!-- Este es un comentario -->
+
+<p> Este es un parrafo</p>
+    <form> <!-- Este es un formulario-->
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="fname" placeholder="Nombre"><br><br>
+        <label>Apellido</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Apellido"><br><br>
+        <label>Edad</label>
+        <input type="number" id="age" name="age" placeholder="Edad" min="18" max="35"><br><br>
+        <label>Email</label>
+        <input type="email" id="email" name="email" placeholder="Correo"><br><br>
+        <label>Contraseña</label>
+        <input type="password" id="password" name="password" placeholder="Contraseña"><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+    <img src="img/Cat.webp" alt="" height="300px" width="300px">
+    
+    <section class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/L_NtCdMdGrg?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <article class"publish">
+        <h3>
+            publish your blog in minutes
+        </h3> 
+        <p>
+            The Dragons and the Beasts king,
+            The Great Dragon as in our minds fly with
+            Fire and thunder over the black heavens skies,
+            The passed and the presents magics master,
+            You who are the power.
+            
+        </p>
+        <form action=""> 
+            <p> Start publishing today:</p>
+            <div>  
+                <input type="text" placeholder="Enter email">
+                <button> Start</button>
+            </div>
         </form>
-        <img src="img/Cat.webp" alt="" height="300px" width="300px">
+    </article>  
+    </section>
+
+    <section class="feature">
+        <article class="feature-card">
+            <div class="feature-content">
+                <figure>
+                    <img src="img/Icono1.png" alt="">
+                </figure>
+            <h3>Titulo 1</h3>
+            <p>
+                Este es un parrafo
+            </p>
+            <a href=""> Publica instantaneamente</a>
+        </div>
+        <div class="feature-image">
+            <figure>
+                <img src="img/Cat.webp" alt="">
+            </figure>
+        </div>
+        </article>
+
+    
+        <article class="feature-card">
+            <div class="feature-content">
+                <figure>
+                    <img src="img/icono3.png" alt="">
+                </figure>
+                <h3>Titulo 1</h3>
+            <p>
+                Este es un parrafo
+            </p>
+            <a href=""> Publica instantaneamente</a>
+        </div>
+        <div class="feature-image">
+            <figure>
+                <img src="img/Cat.webp" alt="">
+            </div>
+        </article>
+
+        <article class="feature-card">
+            <div class="feature-content">
+                <figure>
+                    <h3>Titulo 1</h3>
+                    <p>
+                        Este es un parrafo
+                    </p>
+                    <a href=""> Publica instantaneamente</a>
+                </div>
+                <div class="feature-image">
+                    <figure>
+                        <img src="img/Cat.webp" alt="">
+                    </div>
+                </article>
+    
+                <article class="feature-card">
+                    <div class="feature-content">
+                        <figure>
+                            <img src="img/Icono1.png" alt="">
+                        </figure>
+                        <h3>Titulo 1</h3>
+                        <p>
+                            Este es un parrafo
+                        </p>
+                        <a href=""> Publica instantaneamente</a>
+                    </div>
+                    <div class="feature-image">
+                        <figure>
+                            <img src="img/Cat.webp" alt="">
+                    </div>
+                </article>
+                div class="feature-content">
+                <figure>
+                    <img src="img/Icono1.png" alt="">
+                </figure>
+                <h3>Titulo 1</h3>
+                <p>
+                    Este es un parrafo
+                </p>
+                <a href=""> Publica instantaneamente</a>
+            </div>
+            <div class="feature-image">
+                <figure>
+                    <img src="img/Cat.webp" alt="">
+            </div>
+        </article>
+
+    </section>
+
+
+
+
+</body>
+</html>    

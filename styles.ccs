@@ -1,98 +1,154 @@
 h1{
-    color: #D91512;
+    color:darkblue;
 }
-
-button {
-    color: #fff;
-    background-color: #025157;
+h2{
+    color: blueviolet;
 }
-
-.header{
+h3{
+    color: brown;
+}
+h4{
+    color: chocolate;
+}
+h5{
+    color: darkgreen;
+}
+h6{
+    color: deeppink;
+}
+button{
+    color:mediumvioletred;
+    background-color: bisque;
+}
+.header > {
     margin-top: 1px;
     margin-left: 100px;
     margin-right: 20px;
-    font-size: 0;
+    font-size:0;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-.header > * {
+.header>*{
     display: inline-block;
     font-size: 16px;
     height: 100%;
     vertical-align: middle;
     line-height: 45px;
 }
-
 li{
     display: inline;
 }
-
-.logo{ 
+.logo{
     height: 100%;
 }
-
 .navbar{
     text-align: left;
-    color: #025157;
+    color: brown;
     font-weight: 500;
 }
-
 .actions{
-    text-align: left;
-    font-size: 14px;
+text-align: left;
+font-size: 14px;
 }
-
-.actions > * {
+.actions * {
     margin-left: 15px;
-    margin-right: 15px;
+    margin-right: 10px;
+
 }
-
-
 .publish h3{
-    color: #24949c;
+    color: blueviolet;
 }
-
 .video{
     display: flex;
     width: 75%;
     margin-left: 50px;
-}
 
-.features{
-    background-color: #037a83;
+}
+.feature{
+    background-color: aquamarine;
     display: grid;
     padding: 5% 10%;
-    grid-template-columns: repeat(2, 550px); /* se agregan 2 columnas de 300px*/
-    grid-template-rows: repeat(2, 300px);
+    grid-template-columns: repeat(2, 500px); /se agregan 2 columnas de 300px/
+    grid-template-rows: repeat(2, 330px); 
 }
-
-/* article{
-    background-color: rgb(31, 181, 131);
+/*article{
+    background-color: blue (31, 181, 131);
     margin: 10px;
     width: 40%;
-    height: 50px;
-} */
-
-.features .feature-card {
+    height: 50px;*/
+.feature .feature-card{
     margin-bottom: 30px;
     margin-left: 15px;
-    margin-right: 15px;
-    background-color: #fff;
-    border: 2px solid #D91512;
+margin-right: 15px;
+    background-color: burlywood;
+    border: 2px seagreen;
     display: flex;
     align-items: center;
     overflow: hidden;
 }
-
-.features .feature-card .feature-content{
+.feature .feature-card .feature-content{
     padding: 30px 20px 40px 40px;
     flex: 2;
 }
-
-.features .feature-card .feature-content > * {
+.feature .feature-card .feature-content >* {
     margin-bottom: 1rem;
 }
+.feature .feature-card .feature-content img{
+    width: 50px;
+}
+.feature .feature-card .feature-content h3{
+    font-size: 24px;
+    color: darkblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.feature .feature-card .feature-content p{
+    font-size: 16px;
+    color: darkgreen;
+}
+.feature .feature-card .feature-content a{
+    font-size: 16px;
+color: darkgreen;
+}
+.feature .feature-card .feature-image{
+    flex: 1;
+    width: 40%;
+    position: relative;
+    right: 100px;
+    height: 80%;
+}
+.feature .feature-card .feature-image figure, 
+.feature .feature-card .feature-image img{
+    margin-top: 0;
+    height: 100%;
+}
+@media (max-width: 575px){
+    .narvar, .actions{
+        display: none;
+    }
+h1{
+    font-size:30px ;
+}
+main{
+    margin-top: 130px;
+}
+body{
 
-.features .feature-card .feature-content img{
-    width: 70px;
+}
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  
 }
