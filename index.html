@@ -4,189 +4,286 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Practica 1</title>
+    <link rel="stylesheet" href="styles.css">  <!--llama a la hoja de estilos-->
 </head>
 
 <body>
     <section class="fixed-header">
     <header class="header">
-        <!--logo con link a la pagina principal-->
+        <!--Logo con link a la pagina principal-->
         <a>
-            <img/>
-            <img src="img/Therion4.png" alt="" height="40px" width="40px">
-            </a>
-         <!--Menú de navegación-->
-         <nav class="navbar">
-            <ul>
-                <li> Platform</li>
-                <li> Pricing</li>
-                <li> Resources</li>
-                <li> About</li>
-                <li> Hola</li>
+            <img class="logo" src="img/Genshin-Impact-Logo.png" width="150px" height="10px"/>
+            <!--Menu de navegacion-->
+        </a>
+        <nav class="navbar">
+            <ul> <!--Contenedor de la lista, li es para poner un punto antes -->
+                <li>Protogemas</li>
+                <li>Mora</li>
+                <li>Personajes</li>
+                <li>Kazuha</li>
             </ul>
-         </nav>
-         <!--Contenedor de acciones de usuario-->
-         <div class="actions">
+        </nav>
+        <!--Contenedor de acciones de usuario-->
+        <div class="actions">
             <a>Sign In</a>
-            <button>Start Free trial</button>
-         </div>   
+            <button>Start Free Trial</button>
+        </div>
+
     </header>
     </section>
-    <h1> Mi primer pagina </h1>
-    <h2> Mi primer pagina </h2>
-    <h3> Mi primer pagina </h3>
-    <h4> Mi primer pagina </h4>
-    <h5> Mi primer pagina </h5>
-    <h6> Mi primer pagina </h6> <!-- Este es un comentario -->
 
-    <p> Este es un parrafo</p>
-        <form> <!-- Este es un formulario-->
-            <label for="name">Nombre</label>
-            <input type="text" id="name" name="fname" placeholder="Nombre"><br><br>
-            <label>Apellido</label>
-            <input type="text" id="lastname" name="lastname" placeholder="Apellido"><br><br>
-            <label>Edad</label>
-            <input type="number" id="age" name="age" placeholder="Edad" min="18" max="35"><br><br>
-            <label>Email</label>
-            <input type="email" id="email" name="email" placeholder="Correo"><br><br>
-            <label>Contraseña</label>
-            <input type="password" id="password" name="password" placeholder="Contraseña"><br><br>
-            <button type="submit">Enviar</button>
+    <h1>Mi Primer Pagina Este Semestre</h1> <!--Este es un comentario, esto sirve para poner titulos-->
+    <h2>Heading level 2</h2>
+    <h3>Heading level 3</h3>
+    <h4>Heading level 4</h4>
+    <h5>Heading level 5</h5>
+    <h6>Heading level 6</h6>
+
+    <p>Este es un parrafo</p>
+    <p>Este es un parrafo</p>
+    <p>Este es un parrafo</p>
+    <p>Este es un parrafo</p>
+
+    <article class="publish">
+    <form action=""> <!--Este es formulario-->
+    <label for="name">Nombre</label>
+    <input type="text" id="name" name="frame" placeholder="Nombre"><br><br>
+    <label for="name">Apellido</label>
+    <input type="text" id="lastname" lastname="frame"placeholder="Apellido"><br><br>
+    <label for="name">Edad</label>
+    <input type="number" id="number" number="frame" placeholder="Edad"><br><br>
+    <label for="name">Correo</label>
+    <input type="email" id="email" email="frame"placeholder="Correo"><br><br>
+    <label for="name">Contraseña</label>
+    <input type="password"><br><br>
+    <button type="submit">Enviar</button>
+
+    </form>
+    </article>
+<img src="img/kazu.jpg" alt="" height="200px" width="250px">
+
+<section class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XFkBmfK62_A?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <article class="publish">
+        <h3>
+            Kazuha The Best Anemo
+        </h3>
+        <p>
+            Kazuha es un personaje support, si lo que buscas es potenciar tu DPS entonces
+            lo mejor es llevarlo full maestría, puesto que así aumenta el bono de daño del 
+            elemento que haya hagarrado ademas de hacer mas daño con dicho elemento gracias
+            a su maestria. 
+            
+        </p>
+        <form action="">
+            <p>Unirse a KazuSimps</p>
+            <div>
+                <input type="text" placeholder="Enter email">
+                <button>Start</button>
+            </div>
         </form>
-        <img src="img/Cat.webp" alt="" height="300px" width="300px">
         
-        <section class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/L_NtCdMdGrg?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <article class"publish">
-            <h3>
-                publish your blog in minutes
-            </h3> 
+    </article>
+</section>
+
+<section class="features">
+    <article class="feature-card">
+        <div class="feature-content">
+            <figure>
+                <img src="img/kazuhaaaa.jpg" alt="">
+            </figure>
+        
+        <h3>KazuGod The Best Anemo</h3>
+        <p>
+            Este es un parrafo para explicar porque deberias tener a Kazuha
+        </p>
+        <a href="">Unete ahora mismo</a>
+    </div>
+    <div class="feature-image">
+        <figure>
+            <img src="img/kazuha.jpg" alt="">
+        </figure>
+
+
+    </div>
+    </article>
+
+    <article class="feature-card">
+        <div class="feature-content">
+            <figure>
+                <img src="img/kazuhaaaa.jpg" alt="">
+            </figure>
+        
+        <h3>KazuGod The Best Anemo</h3>
+        <p>
+            Este es un parrafo para explicar porque deberias tener a Kazuha
+        </p>
+        <a href="">Unete ahora mismo</a>
+    </div>
+    <div class="feature-image">
+        <figure>
+            <img src="img/kazuha.jpg" alt="">
+        </figure>
+
+
+    </div>
+    </article>
+
+   <article class="feature-card">
+        <div class="feature-content">
+            <figure>
+                <img src="img/kazuhaaaa.jpg" alt="">
+            </figure>
+        
+        <h3>KazuGod The Best Anemo</h3>
+        <p>
+            Este es un parrafo para explicar porque deberias tener a Kazuha
+        </p>
+        <a href="">Unete ahora mismo</a>
+    </div>
+    <div class="feature-image">
+        <figure>
+            <img src="img/kazuha.jpg" alt="">
+        </figure>
+
+
+    </div>
+    </article>
+
+    <article class="feature-card">
+        <div class="feature-content">
+            <figure>
+                <img src="img/kazuhaaaa.jpg" alt="">
+            </figure>
+        
+        <h3>KazuGod The Best Anemo</h3>
+        <p>
+            Este es un parrafo para explicar porque deberias tener a Kazuha
+        </p>
+        <a href="">Unete ahora mismo</a>
+    </div>
+    <div class="feature-image">
+        <figure>
+            <img src="img/kazuha.jpg" alt="">
+        </figure>
+
+
+    </div>
+    </article>
+
+</section>
+
+<section class="tarea">
+    <article class="parrafo">
+        <h1>Kazuha uno de los mejores support Anemo</h1>
+        <p>
+            Kazuha es un personaje support, si lo que buscas es potenciar tu DPS entonces
+            lo mejor es llevarlo full maestría, puesto que así aumenta el bono de daño del 
+            elemento que haya hagarrado ademas de hacer mas daño con dicho elemento gracias
+            a su maestria.  
+        </p>
+        <button>Start Now</button><br><br>
+
+        <img src="img/kazuha.jpg" alt="" height="200px" width="200px" >
+    </article>
+
+    <article class="anuncio">
+        <div class="feature-anuncio">
+            <figure class="feature-figures">
+                <img src="img/kazuhaa.jpg" alt="">
+            </figure>
+            <h3>Este es el anuncio</h3>
             <p>
-                The Dragons and the Beasts king,
-                The Great Dragon as in our minds fly with
-                Fire and thunder over the black heavens skies,
-                The passed and the presents magics master,
-                You who are the power.
-                
+                Este es el parrafo de el anuncio, claramente, no dice nada
+                pero eso no importa...
             </p>
-            <form action=""> 
-                <p> Start publishing today:</p>
-                <div>  
-                    <input type="text" placeholder="Enter email">
-                    <button> Start</button>
-                </div>
-            </form>
-        </article>  
-        </section>
-
-        <section class="feature">
-            <article class="feature-card">
-                <div class="feature-content">
-                    <figure>
-                        <img src="img/Icono1.png" alt="">
-                    </figure>
-                <h3>Titulo 1</h3>
-                <p>
-                    Este es un parrafo
-                </p>
-                <a href=""> Publica instantaneamente</a>
-            </div>
-            <div class="feature-image">
-                <figure>
-                    <img src="img/Cat.webp" alt="">
-                </figure>
-            </div>
-            </article>
-
-        
-            <article class="feature-card">
-                <div class="feature-content">
-                    <figure>
-                        <img src="img/icono3.png" alt="">
-                    </figure>
-                    <h3>Titulo 1</h3>
-                <p>
-                    Este es un parrafo
-                </p>
-                <a href=""> Publica instantaneamente</a>
-            </div>
-            <div class="feature-image">
-                <figure>
-                    <img src="img/Cat.webp" alt="">
-                </div>
-            </article>
-
-            <article class="feature-card">
-                <div class="feature-content">
-                    <figure>
-                        <img src="img/icono4.png" alt="">
-                    </figure>
-                    <h3>Titulo 1</h3>
-                <p>
-                    Este es un parrafo
-                </p>
-                <a href=""> Publica instantaneamente</a>
-            </div>
-            <div class="feature-image">
-                <figure>
-                    <img src="img/Cat.webp" alt="">
-                </div>
-            </article>
-
-            <article class="feature-card">
-                <div class="feature-content">
-                    <figure>
-                        <img src="img/Icono1.png" alt="">
-                    </figure>
-                    <h3>Titulo 1</h3>
-                    <p>
-                        Este es un parrafo
-                    </p>
-                    <a href=""> Publica instantaneamente</a>
-                </div>
-                <div class="feature-image">
-                    <figure>
-                        <img src="img/Cat.webp" alt="">
-                </div>
-            </article>
-
-        </section>
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="Class vote " content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
-            <link rel="stylesheet" href="styles.css">
-        </head>
-        <body>
-            <section class="fixed-header">
-                <header class="header">
-                    <!--logo con link a la pagina principal-->
-                    <a>
-                        <img/>
-                        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="" height="40px" width="40px">
-                        </a> 
-                        <a>
-                            <img/>
-                            <img src="https://i.pinimg.com/736x/1a/91/d0/1a91d05221c5a1f04b4383d6db01ba8f.jpg" alt="" height="40px" width="40px">
-                            </a>
-                            <a>
-                                <img/>
-                                <img src="image.png" alt="" height="40px" width="40px">
-                                </a> 
-                                <a>
-                                    <input type ="button">
-                                    <input type="reset">
-                                    <A >HREF="https://users.dcc.uchile.cl/~ahevia/html/links.html"> Este es un link </A>
+            <button>Start Now</button>
+        </div>
 
 
-                            
-        </body>
+    </article>
 
-        
-    
+</section>
 
+
+
+
+<section class="examen">
+    <article class="examen-features">
+        <h1>Examen</h1>
+        <p>Esto va a salir mal, no sabemos nada</p>
+        <button>Start</button>
+
+    </article>
+</section>
+
+<section class="feature">
+<article class="feature-cards">
+    <div class="feature-contents">
+        <figure class="feature-figure">
+            <img src="img/kazuha1.gif" alt="">
+        </figure>
+        <h3>Esta es la tarjeta uno</h3>
+        <p>
+            Este es el parrafo de la tarjeta uno, claramente, no dice nada
+            pero eso no importa...
+        </p>
+        <a href="">Da click aquí</a>
+    </div>
+
+</article>
+
+<article class="feature-cards">
+    <div class="feature-contents">
+        <figure class="feature-figure">
+            <img src="img/kazuha2.gif" alt="">
+        </figure>
+        <h3>Esta es la tarjeta dos</h3>
+        <p>
+            Este es el parrafo de la tarjeta dos, claramente, no dice nada
+            pero eso no importa...
+        </p>
+        <a href="">Da click aquí</a>
+    </div>
+
+</article>
+
+<article class="feature-cards">
+    <div class="feature-contents">
+        <figure class="feature-figure">
+            <img src="img/kazuha3.gif" alt="">
+        </figure>
+        <h3>Esta es la tarjeta tres</h3>
+        <p>
+            Este es el parrafo de la tarjeta tres, claramente, no dice nada
+            pero eso no importa...
+        </p>
+        <a href="">Da click aquí</a>
+    </div>
+
+</article>
+
+<article class="feature-cards">
+    <div class="feature-contents">
+        <figure class="feature-figure">
+            <img src="img/kazuha1.gif" alt="">
+        </figure>
+        <h3>Esta es la tarjeta cuatro</h3>
+        <p>
+            Este es el parrafo de la tarjeta cuatro, claramente, no dice nada
+            pero eso no importa...
+        </p>
+        <a href="">Da click aquí</a>
+    </div>
+
+</article>
+
+
+
+
+</section>
 
 
 </body>
