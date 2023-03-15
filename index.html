@@ -1,290 +1,183 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+@@ -7,30 +7,41 @@
     <title>Practica 1</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="styles.css">  <!--llama a la hoja de estilos-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
 </head>
 
 <body>
-    <section class="fixed-header">
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
     <header class="header">
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark fixed-top"  class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+
+    <header class="container-fluid">
+
         <!--Logo con link a la pagina principal-->
-        <a>
+        <a class="navbar-brand">
+        <a class="navbar-brand"> 
+
             <img class="logo" src="img/Genshin-Impact-Logo.png" width="150px" height="10px"/>
             <!--Menu de navegacion-->
         </a>
-        <nav class="navbar">
+        <div class="navbar">
             <ul> <!--Contenedor de la lista, li es para poner un punto antes -->
                 <li>Protogemas</li>
                 <li>Mora</li>
                 <li>Personajes</li>
                 <li>Kazuha</li>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav"> <!--Contenedor de la lista, li es para poner un punto antes -->
+                <li  class="nav-item">Protogemas</li>
+                <li  class="nav-item">Mora</li>
+                <li  class="nav-item">Personajes</li>
+                <li  class="nav-item">Kazuha</li>
             </ul>
-        </nav>
+        </div>
+
         <!--Contenedor de acciones de usuario-->
         <div class="actions">
             <a>Sign In</a>
-            <button>Start Free Trial</button>
+            <button class="btn btn-dark">Start Free Trial</button>
         </div>
 
+    </div>
+
     </header>
-    </section>
+    </nav>
+@@ -47,6 +58,39 @@ <h6>Heading level 6</h6>
+    <p>Este es un parrafo</p>
+    <p>Este es un parrafo</p>
 
-    <h1>Mi Primer Pagina Este Semestre</h1> <!--Este es un comentario, esto sirve para poner titulos-->
-    <h2>Heading level 2</h2>
-    <h3>Heading level 3</h3>
-    <h4>Heading level 4</h4>
-    <h5>Heading level 5</h5>
-    <h6>Heading level 6</h6>
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-    <p>Este es un parrafo</p>
-    <p>Este es un parrafo</p>
-    <p>Este es un parrafo</p>
-    <p>Este es un parrafo</p>
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="@@ -7,30 +7,41 @@
+        <title>Practica 1</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="styles.css">  <!--llama a la hoja de estilos-->
+        <script src="js/bootstrap.bundle.min.js"></script>
+    
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+        <header class="header">
+        <nav class="navbar navbar-expand-sm bg-danger navbar-dark fixed-top"  class="navbar navbar-expand-sm bg-dark navbar-dark">
+    
+    
+        <header class="container-fluid">
+    
+            <!--Logo con link a la pagina principal-->
+            <a class="navbar-brand">
+            <a class="navbar-brand"> 
+    
+                <img class="logo" src="img/Genshin-Impact-Logo.png" width="150px" height="10px"/>
+                <!--Menu de navegacion-->
+            </a>
+            <div class="navbar">
+                <ul> <!--Contenedor de la lista, li es para poner un punto antes -->
+                    <li>Protogemas</li>
+                    <li>Mora</li>
+                    <li>Personajes</li>
+                    <li>Kazuha</li>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav"> <!--Contenedor de la lista, li es para poner un punto antes -->
+                    <li  class="nav-item">Protogemas</li>
+                    <li  class="nav-item">Mora</li>
+                    <li  class="nav-item">Personajes</li>
+                    <li  class="nav-item">Kazuha</li>
+                </ul>
+            </div>
+    
+            <!--Contenedor de acciones de usuario-->
+            <div class="actions">
+                <a>Sign In</a>
+                <button class="btn btn-dark">Start Free Trial</button>
+            </div>
+    
+        </div>
+    
+        </header>
+        </nav>
+    @@ -47,6 +58,39 @@ <h6>Heading level 6</h6>
+        <p>Este es un parrafo</p>
+        <p>Este es un parrafo</p>
+    
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+    
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/paisaje 1.jpg" alt="Los Angeles" class="d-block w-80">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/paisaje 2.jpg" alt="Chicago" class="d-block w-80">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/paisaje 3.jpeg" alt="New York" class="d-block w-80">
+          </div>
+        </div>
+    
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    
+    
+        <article class="publish">
+        <form action=""> <!--Este es formulario-->
+        <label for="name">Nombre</label>" alt="Los Angeles" class="d-block w-80">
+      </div>
+      <div class="carousel-item">
+        <img src="img/kazuha1.gif" alt="Chicago" class="d-block w-80">
+      </div>
+      <div class="carousel-item">
+        <img src="img/kazuha2.gif" alt="New York" class="d-block w-80">
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
 
     <article class="publish">
     <form action=""> <!--Este es formulario-->
     <label for="name">Nombre</label>
-    <input type="text" id="name" name="frame" placeholder="Nombre"><br><br>
-    <label for="name">Apellido</label>
-    <input type="text" id="lastname" lastname="frame"placeholder="Apellido"><br><br>
-    <label for="name">Edad</label>
-    <input type="number" id="number" number="frame" placeholder="Edad"><br><br>
-    <label for="name">Correo</label>
-    <input type="email" id="email" email="frame"placeholder="Correo"><br><br>
-    <label for="name">Contraseña</label>
-    <input type="password"><br><br>
-    <button type="submit">Enviar</button>
-
-    </form>
-    </article>
-<img src="img/kazu.jpg" alt="" height="200px" width="250px">
-
-<section class="video">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/XFkBmfK62_A?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-    <article class="publish">
-        <h3>
-            Kazuha The Best Anemo
-        </h3>
-        <p>
-            Kazuha es un personaje support, si lo que buscas es potenciar tu DPS entonces
-            lo mejor es llevarlo full maestría, puesto que así aumenta el bono de daño del 
-            elemento que haya hagarrado ademas de hacer mas daño con dicho elemento gracias
-            a su maestria. 
-            
-        </p>
-        <form action="">
-            <p>Unirse a KazuSimps</p>
-            <div>
-                <input type="text" placeholder="Enter email">
-                <button>Start</button>
-            </div>
-        </form>
-        
-    </article>
-</section>
-
-<section class="features">
-    <article class="feature-card">
-        <div class="feature-content">
-            <figure>
-                <img src="img/kazuhaaaa.jpg" alt="">
-            </figure>
-        
-        <h3>KazuGod The Best Anemo</h3>
-        <p>
-            Este es un parrafo para explicar porque deberias tener a Kazuha
-        </p>
-        <a href="">Unete ahora mismo</a>
-    </div>
-    <div class="feature-image">
-        <figure>
-            <img src="img/kazuha.jpg" alt="">
-        </figure>
-
-
-    </div>
-    </article>
-
-    <article class="feature-card">
-        <div class="feature-content">
-            <figure>
-                <img src="img/kazuhaaaa.jpg" alt="">
-            </figure>
-        
-        <h3>KazuGod The Best Anemo</h3>
-        <p>
-            Este es un parrafo para explicar porque deberias tener a Kazuha
-        </p>
-        <a href="">Unete ahora mismo</a>
-    </div>
-    <div class="feature-image">
-        <figure>
-            <img src="img/kazuha.jpg" alt="">
-        </figure>
-
-
-    </div>
-    </article>
-
-   <article class="feature-card">
-        <div class="feature-content">
-            <figure>
-                <img src="img/kazuhaaaa.jpg" alt="">
-            </figure>
-        
-        <h3>KazuGod The Best Anemo</h3>
-        <p>
-            Este es un parrafo para explicar porque deberias tener a Kazuha
-        </p>
-        <a href="">Unete ahora mismo</a>
-    </div>
-    <div class="feature-image">
-        <figure>
-            <img src="img/kazuha.jpg" alt="">
-        </figure>
-
-
-    </div>
-    </article>
-
-    <article class="feature-card">
-        <div class="feature-content">
-            <figure>
-                <img src="img/kazuhaaaa.jpg" alt="">
-            </figure>
-        
-        <h3>KazuGod The Best Anemo</h3>
-        <p>
-            Este es un parrafo para explicar porque deberias tener a Kazuha
-        </p>
-        <a href="">Unete ahora mismo</a>
-    </div>
-    <div class="feature-image">
-        <figure>
-            <img src="img/kazuha.jpg" alt="">
-        </figure>
-
-
-    </div>
-    </article>
-
-</section>
-
-<section class="tarea">
-    <article class="parrafo">
-        <h1>Kazuha uno de los mejores support Anemo</h1>
-        <p>
-            Kazuha es un personaje support, si lo que buscas es potenciar tu DPS entonces
-            lo mejor es llevarlo full maestría, puesto que así aumenta el bono de daño del 
-            elemento que haya hagarrado ademas de hacer mas daño con dicho elemento gracias
-            a su maestria.  
-        </p>
-        <button>Start Now</button><br><br>
-
-        <img src="img/kazuha.jpg" alt="" height="200px" width="200px" >
-    </article>
-
-    <article class="anuncio">
-        <div class="feature-anuncio">
-            <figure class="feature-figures">
-                <img src="img/kazuhaa.jpg" alt="">
-            </figure>
-            <h3>Este es el anuncio</h3>
-            <p>
-                Este es el parrafo de el anuncio, claramente, no dice nada
-                pero eso no importa...
-            </p>
-            <button>Start Now</button>
-        </div>
-
-
-    </article>
-
-</section>
-
-
-
-
-<section class="examen">
-    <article class="examen-features">
-        <h1>Examen</h1>
-        <p>Esto va a salir mal, no sabemos nada</p>
-        <button>Start</button>
-
-    </article>
-</section>
-
-<section class="feature">
-<article class="feature-cards">
-    <div class="feature-contents">
-        <figure class="feature-figure">
-            <img src="img/kazuha1.gif" alt="">
-        </figure>
-        <h3>Esta es la tarjeta uno</h3>
-        <p>
-            Este es el parrafo de la tarjeta uno, claramente, no dice nada
-            pero eso no importa...
-        </p>
-        <a href="">Da click aquí</a>
-    </div>
-
-</article>
-
-<article class="feature-cards">
-    <div class="feature-contents">
-        <figure class="feature-figure">
-            <img src="img/kazuha2.gif" alt="">
-        </figure>
-        <h3>Esta es la tarjeta dos</h3>
-        <p>
-            Este es el parrafo de la tarjeta dos, claramente, no dice nada
-            pero eso no importa...
-        </p>
-        <a href="">Da click aquí</a>
-    </div>
-
-</article>
-
-<article class="feature-cards">
-    <div class="feature-contents">
-        <figure class="feature-figure">
-            <img src="img/kazuha3.gif" alt="">
-        </figure>
-        <h3>Esta es la tarjeta tres</h3>
-        <p>
-            Este es el parrafo de la tarjeta tres, claramente, no dice nada
-            pero eso no importa...
-        </p>
-        <a href="">Da click aquí</a>
-    </div>
-
-</article>
-
-<article class="feature-cards">
-    <div class="feature-contents">
-        <figure class="feature-figure">
-            <img src="img/kazuha1.gif" alt="">
-        </figure>
-        <h3>Esta es la tarjeta cuatro</h3>
-        <p>
-            Este es el parrafo de la tarjeta cuatro, claramente, no dice nada
-            pero eso no importa...
-        </p>
-        <a href="">Da click aquí</a>
-    </div>
-
-</article>
-
-
-
-
-</section>
-
-
-</body>
-</html>
